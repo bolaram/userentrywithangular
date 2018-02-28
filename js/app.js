@@ -6,9 +6,14 @@ myApp.controller("myController", function($scope){
 	$scope.info = "";
 
 	$scope.users = [
-		{username: "rimon", fullName: "Md. Mamunur Rashid Rimon", email:"rimonmath@gmail.com"},
-		{username: "shamim", fullName: "Md. Tamim Hossain", email:"shamim@gmail.com"},
-		{username: "tamim", fullName: "Tamim Iqbal", email:"tamim@gmail.com"}
+		{username: "mashrafee", fullName: "Mashrafe", email:"salman@salma.com"},
+		{username: "sabbir", fullName: "Sabbir", email:"wari@wari.com"},
+		{username: "ikbal", fullName: "Iqbal", email:"seva@test.com"},
+		{username: "sakib", fullName: "Sakib", email:"seva@test.com"},
+		{username: "nasir", fullName: "Nasir", email:"seva@test.com"},
+		{username: "taskin", fullName: "Taskin", email:"seva@test.com"},
+		{username: "musha", fullName: "Musha", email:"seva@test.com"},
+		{username: "liton", fullName: "Liton", email:"seva@test.com"}
 	];
 
 	$scope.saveUser = function(){
